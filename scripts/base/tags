@@ -1,0 +1,161 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Account	.\Account.py	/^class Account(KBEngine.Proxy):$/;"	c
+Avatar	.\Avatar.py	/^			Teleport):$/;"	c
+CONST_WAIT_CREATE	.\SpaceAlloc.py	/^CONST_WAIT_CREATE = -1$/;"	v
+Functor	.\SpaceAlloc.py	/^import Functor$/;"	i
+Functor	.\Spaces.py	/^import Functor$/;"	i
+GameObject	.\Avatar.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\Space.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\Spaces.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\SpawnPoint.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\interfaces\GameObject.py	/^class GameObject:$/;"	c
+GameObject	.\interfaces\NPCObject.py	/^from interfaces.GameObject import GameObject$/;"	i
+GlobalConst	.\Account.py	/^import GlobalConst$/;"	i
+GlobalConst	.\Avatar.py	/^import GlobalConst$/;"	i
+GlobalConst	.\interfaces\Teleport.py	/^import GlobalConst$/;"	i
+KBEngine	.\Account.py	/^import KBEngine$/;"	i
+KBEngine	.\Avatar.py	/^import KBEngine$/;"	i
+KBEngine	.\Space.py	/^import KBEngine$/;"	i
+KBEngine	.\SpaceAlloc.py	/^import KBEngine$/;"	i
+KBEngine	.\SpaceDuplicate.py	/^import KBEngine$/;"	i
+KBEngine	.\Spaces.py	/^import KBEngine$/;"	i
+KBEngine	.\SpawnPoint.py	/^import KBEngine$/;"	i
+KBEngine	.\Watcher.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\GameObject.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\NPCObject.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\Teleport.py	/^import KBEngine$/;"	i
+KBEngine	.\kbengine.py	/^import KBEngine$/;"	i
+NPCObject	.\interfaces\NPCObject.py	/^class NPCObject(GameObject):$/;"	c
+SCDefine	.\Avatar.py	/^import SCDefine$/;"	i
+SCDefine	.\Space.py	/^import SCDefine$/;"	i
+SCDefine	.\Spaces.py	/^import SCDefine$/;"	i
+Space	.\Space.py	/^class Space(KBEngine.Base, GameObject):$/;"	c
+Space	.\SpaceDuplicate.py	/^from Space import Space$/;"	i
+SpaceAlloc	.\SpaceAlloc.py	/^class SpaceAlloc:$/;"	c
+SpaceAllocDuplicate	.\SpaceAlloc.py	/^class SpaceAllocDuplicate(SpaceAlloc):$/;"	c
+SpaceDuplicate	.\SpaceDuplicate.py	/^class SpaceDuplicate(Space):$/;"	c
+Spaces	.\Spaces.py	/^class Spaces(KBEngine.Base, GameObject):$/;"	c
+SpawnPoint	.\SpawnPoint.py	/^class SpawnPoint(KBEngine.Base, GameObject):$/;"	c
+TAvatarData	.\Account.py	/^from AVATAR_DATA import TAvatarData$/;"	i
+TAvatarInfos	.\Account.py	/^from AVATAR_INFOS import TAvatarInfos$/;"	i
+TAvatarInfosList	.\Account.py	/^from AVATAR_INFOS import TAvatarInfosList$/;"	i
+Teleport	.\Avatar.py	/^from interfaces.Teleport import Teleport$/;"	i
+Teleport	.\interfaces\Teleport.py	/^class Teleport:$/;"	c
+Watcher	.\Spaces.py	/^import Watcher$/;"	i
+Watcher	.\kbengine.py	/^import Watcher$/;"	i
+__init__	.\Account.py	/^	def __init__(self):$/;"	m	class:Account
+__init__	.\Avatar.py	/^	def __init__(self):$/;"	m	class:Avatar
+__init__	.\Space.py	/^	def __init__(self):$/;"	m	class:Space
+__init__	.\SpaceAlloc.py	/^	def __init__(self, utype):$/;"	m	class:SpaceAlloc
+__init__	.\SpaceAlloc.py	/^	def __init__(self, utype):$/;"	m	class:SpaceAllocDuplicate
+__init__	.\SpaceDuplicate.py	/^	def __init__(self):$/;"	m	class:SpaceDuplicate
+__init__	.\Spaces.py	/^	def __init__(self):$/;"	m	class:Spaces
+__init__	.\SpawnPoint.py	/^	def __init__(self):$/;"	m	class:SpawnPoint
+__init__	.\interfaces\GameObject.py	/^	def __init__(self):$/;"	m	class:GameObject
+__init__	.\interfaces\NPCObject.py	/^	def __init__(self):$/;"	m	class:NPCObject
+__init__	.\interfaces\Teleport.py	/^	def __init__(self):$/;"	m	class:Teleport
+__onAvatarCreated	.\Account.py	/^	def __onAvatarCreated(self, baseRef, dbid, wasActive):$/;"	m	class:Account	file:
+_onAvatarSaved	.\Account.py	/^	def _onAvatarSaved(self, success, avatar):$/;"	m	class:Account
+alloc	.\SpaceAlloc.py	/^	def alloc(self, context):$/;"	m	class:SpaceAlloc
+alloc	.\SpaceAlloc.py	/^	def alloc(self, context):$/;"	m	class:SpaceAllocDuplicate
+copy	.\Space.py	/^import copy$/;"	i
+copy	.\SpaceAlloc.py	/^import copy$/;"	i
+countPlayers	.\Watcher.py	/^def countPlayers():$/;"	f
+createCell	.\Avatar.py	/^	def createCell(self, space):$/;"	m	class:Avatar
+createSpace	.\SpaceAlloc.py	/^	def createSpace(self, spaceKey, context):$/;"	m	class:SpaceAlloc
+createSpaceOnTimer	.\Spaces.py	/^	def createSpaceOnTimer(self, tid):$/;"	m	class:Spaces
+createSpawnPointDatas	.\Space.py	/^	def createSpawnPointDatas(self):$/;"	m	class:Space
+d_avatar_inittab	.\Account.py	/^import d_avatar_inittab$/;"	i
+d_avatar_inittab	.\Avatar.py	/^import d_avatar_inittab$/;"	i
+d_avatar_inittab	.\interfaces\Teleport.py	/^import d_avatar_inittab$/;"	i
+d_entities	.\Space.py	/^import d_entities$/;"	i
+d_entities	.\SpaceAlloc.py	/^import d_entities$/;"	i
+d_entities	.\SpaceDuplicate.py	/^import d_entities$/;"	i
+d_spaces	.\Account.py	/^import d_spaces$/;"	i
+d_spaces	.\Avatar.py	/^import d_spaces$/;"	i
+d_spaces	.\Space.py	/^import d_spaces$/;"	i
+d_spaces	.\SpaceAlloc.py	/^import d_spaces$/;"	i
+d_spaces	.\SpaceDuplicate.py	/^import d_spaces$/;"	i
+d_spaces	.\Spaces.py	/^import d_spaces$/;"	i
+d_spaces	.\interfaces\Teleport.py	/^import d_spaces$/;"	i
+d_spaces	.\kbengine.py	/^import d_spaces$/;"	i
+d_spaces_spawns	.\Space.py	/^import d_spaces_spawns$/;"	i
+destroySelf	.\Avatar.py	/^	def destroySelf(self):$/;"	m	class:Avatar
+destroySelf	.\interfaces\GameObject.py	/^	def destroySelf(self):$/;"	m	class:GameObject
+etree	.\Space.py	/^import xml.etree.ElementTree as etree $/;"	i
+getCurrSpace	.\interfaces\GameObject.py	/^	def getCurrSpace(self):$/;"	m	class:GameObject
+getCurrSpaceBase	.\interfaces\GameObject.py	/^	def getCurrSpaceBase(self):$/;"	m	class:GameObject
+getScriptName	.\interfaces\GameObject.py	/^	def getScriptName(self):$/;"	m	class:GameObject
+getSpaceAllocs	.\Spaces.py	/^	def getSpaceAllocs(self):$/;"	m	class:Spaces
+getSpaces	.\SpaceAlloc.py	/^	def getSpaces(self):$/;"	m	class:SpaceAlloc
+getSpaces	.\interfaces\GameObject.py	/^	def getSpaces(self):$/;"	m	class:GameObject
+init	.\SpaceAlloc.py	/^	def init(self):$/;"	m	class:SpaceAlloc
+init	.\SpaceAlloc.py	/^	def init(self):$/;"	m	class:SpaceAllocDuplicate
+initAlloc	.\Spaces.py	/^	def initAlloc(self):$/;"	m	class:Spaces
+loginToSpace	.\Space.py	/^	def loginToSpace(self, avatarMailbox, context):$/;"	m	class:Space
+loginToSpace	.\SpaceAlloc.py	/^	def loginToSpace(self, avatarEntity, context):$/;"	m	class:SpaceAlloc
+loginToSpace	.\Spaces.py	/^	def loginToSpace(self, avatarEntity, spaceUType, context):$/;"	m	class:Spaces
+logoutSpace	.\Space.py	/^	def logoutSpace(self, entityID):$/;"	m	class:Space
+logoutSpace	.\Spaces.py	/^	def logoutSpace(self, avatarID, spaceKey):$/;"	m	class:Spaces
+math	.\Space.py	/^import math$/;"	i
+onAutoLoadEntityCreate	.\kbengine.py	/^def onAutoLoadEntityCreate(entityType, dbid):$/;"	f
+onBaseAppData	.\kbengine.py	/^def onBaseAppData(key, value):$/;"	f
+onBaseAppDataDel	.\kbengine.py	/^def onBaseAppDataDel(key):$/;"	f
+onBaseAppReady	.\kbengine.py	/^def onBaseAppReady(isBootstrap):$/;"	f
+onBaseAppShutDown	.\kbengine.py	/^def onBaseAppShutDown(state):$/;"	f
+onCellAppDeath	.\kbengine.py	/^def onCellAppDeath(addr):$/;"	f
+onClientDeath	.\Account.py	/^	def onClientDeath(self):$/;"	m	class:Account
+onClientDeath	.\Avatar.py	/^	def onClientDeath(self):$/;"	m	class:Avatar
+onClientGetCell	.\Avatar.py	/^	def onClientGetCell(self):$/;"	m	class:Avatar
+onDestroyTimer	.\Avatar.py	/^	def onDestroyTimer(self):$/;"	m	class:Avatar
+onEnter	.\Space.py	/^	def onEnter(self, entityMailbox):$/;"	m	class:Space
+onEntitiesEnabled	.\Account.py	/^	def onEntitiesEnabled(self):$/;"	m	class:Account
+onEntitiesEnabled	.\Avatar.py	/^	def onEntitiesEnabled(self):$/;"	m	class:Avatar
+onEntitiesEnabled	.\interfaces\Teleport.py	/^	def onEntitiesEnabled(self):$/;"	m	class:Teleport
+onFini	.\kbengine.py	/^def onFini():$/;"	f
+onGetCell	.\Avatar.py	/^	def onGetCell(self):$/;"	m	class:Avatar
+onGetCell	.\Space.py	/^	def onGetCell(self):$/;"	m	class:Space
+onGetCell	.\interfaces\GameObject.py	/^	def onGetCell(self):$/;"	m	class:GameObject
+onGlobalData	.\kbengine.py	/^def onGlobalData(key, value):$/;"	f
+onGlobalDataDel	.\kbengine.py	/^def onGlobalDataDel(key):$/;"	f
+onInit	.\items\base\__init__.py	/^def onInit():$/;"	f
+onInit	.\kbengine.py	/^def onInit(isReload):$/;"	f
+onInit	.\quests\base\__init__.py	/^def onInit():$/;"	f
+onLeave	.\Space.py	/^	def onLeave(self, entityID):$/;"	m	class:Space
+onLogOnAttempt	.\Account.py	/^	def onLogOnAttempt(self, ip, port, password):$/;"	m	class:Account
+onLoseCell	.\Space.py	/^	def onLoseCell(self):$/;"	m	class:Space
+onLoseCell	.\interfaces\GameObject.py	/^	def onLoseCell(self):$/;"	m	class:GameObject
+onLoseChargeCB	.\kbengine.py	/^def onLoseChargeCB(ordersID, dbid, success, datas):$/;"	f
+onReadyForLogin	.\kbengine.py	/^def onReadyForLogin(isBootstrap):$/;"	f
+onRestore	.\interfaces\GameObject.py	/^	def onRestore(self):$/;"	m	class:GameObject
+onSpaceCreatedCB	.\SpaceAlloc.py	/^	def onSpaceCreatedCB(self, spaceKey, space):$/;"	m	class:SpaceAlloc
+onSpaceGetCell	.\SpaceAlloc.py	/^	def onSpaceGetCell(self, spaceMailbox, spaceKey):$/;"	m	class:SpaceAlloc
+onSpaceGetCell	.\Spaces.py	/^	def onSpaceGetCell(self, spaceUType, spaceMailbox, spaceKey):$/;"	m	class:Spaces
+onSpaceLoseCell	.\SpaceAlloc.py	/^	def onSpaceLoseCell(self, spaceKey):$/;"	m	class:SpaceAlloc
+onSpaceLoseCell	.\Spaces.py	/^	def onSpaceLoseCell(self, spaceUType, spaceKey):$/;"	m	class:Spaces
+onTimer	.\Avatar.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Avatar
+onTimer	.\Space.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Space
+onTimer	.\Spaces.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Spaces
+onTimer	.\interfaces\GameObject.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:GameObject
+os	.\Account.py	/^import os$/;"	i
+random	.\Account.py	/^import random$/;"	i
+random	.\Avatar.py	/^import random$/;"	i
+random	.\Space.py	/^import random$/;"	i
+random	.\SpaceDuplicate.py	/^import random$/;"	i
+reqAvatarList	.\Account.py	/^	def reqAvatarList(self):$/;"	m	class:Account
+reqCreateAvatar	.\Account.py	/^	def reqCreateAvatar(self, roleType, name):$/;"	m	class:Account
+reqRemoveAvatar	.\Account.py	/^	def reqRemoveAvatar(self, name):$/;"	m	class:Account
+selectAvatarGame	.\Account.py	/^	def selectAvatarGame(self, dbid):$/;"	m	class:Account
+setup	.\Watcher.py	/^def setup():$/;"	f
+spawnOnTimer	.\Space.py	/^	def spawnOnTimer(self, tid):$/;"	m	class:Space
+teleportSpace	.\Space.py	/^	def teleportSpace(self, entityMailbox, position, direction, context):$/;"	m	class:Space
+teleportSpace	.\SpaceAlloc.py	/^	def teleportSpace(self, entityMailbox, position, direction, context):$/;"	m	class:SpaceAlloc
+teleportSpace	.\Spaces.py	/^	def teleportSpace(self, entityMailbox, spaceUType, position, direction, context):$/;"	m	class:Spaces
+time	.\Account.py	/^import time$/;"	i
+time	.\Avatar.py	/^import time$/;"	i
+xml	.\Space.py	/^import xml.etree.ElementTree as etree $/;"	i

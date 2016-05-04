@@ -1,0 +1,421 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AI	.\Monster.py	/^from interfaces.AI import AI$/;"	i
+AI	.\interfaces\AI.py	/^class AI:$/;"	c
+Avatar	.\Avatar.py	/^			Dialog):$/;"	c
+Combat	.\Avatar.py	/^from interfaces.Combat import Combat$/;"	i
+Combat	.\Monster.py	/^from interfaces.Combat import Combat$/;"	i
+Combat	.\interfaces\Combat.py	/^class Combat(CombatPropertys):$/;"	c
+CombatPropertys	.\interfaces\Combat.py	/^from interfaces.CombatPropertys import CombatPropertys$/;"	i
+CombatPropertys	.\interfaces\CombatPropertys.py	/^class CombatPropertys:$/;"	c
+DBuff	.\skills\base\DBuff.py	/^class DBuff(SObject):$/;"	c
+DFClose	.\dialogmgr\funcs\DFClose.py	/^class DFClose(iDFunction):$/;"	c
+DFClose	.\dialogmgr\funcs\__init__.py	/^from dialogmgr.funcs.DFClose import DFClose$/;"	i
+DFTeleport	.\dialogmgr\funcs\DFTeleport.py	/^class DFTeleport(iDFunction):$/;"	c
+DFTeleport	.\dialogmgr\funcs\__init__.py	/^from dialogmgr.funcs.DFTeleport import DFTeleport$/;"	i
+Dialog	.\Avatar.py	/^from interfaces.Dialog import Dialog$/;"	i
+Dialog	.\dialogmgr\Dialog.py	/^class Dialog:$/;"	c
+Dialog	.\dialogmgr\DialogMgr.py	/^from dialogmgr.Dialog import Dialog$/;"	i
+Dialog	.\dialogmgr\__init__.py	/^from dialogmgr.Dialog import Dialog$/;"	i
+Dialog	.\interfaces\Dialog.py	/^class Dialog:$/;"	c
+DialogMgr	.\dialogmgr\DialogMgr.py	/^class DialogMgr:$/;"	c
+DialogMgr	.\dialogmgr\__init__.py	/^from dialogmgr.DialogMgr import DialogMgr$/;"	i
+Equip	.\items\__init__.py	/^from Equip import Equip$/;"	i
+Flags	.\Avatar.py	/^from interfaces.Flags import Flags$/;"	i
+Flags	.\Monster.py	/^from interfaces.Flags import Flags$/;"	i
+Flags	.\interfaces\Flags.py	/^class Flags:$/;"	c
+GameObject	.\Avatar.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\Gate.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\Space.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\SpawnPoint.py	/^from interfaces.GameObject import GameObject$/;"	i
+GameObject	.\interfaces\GameObject.py	/^class GameObject:$/;"	c
+GameObject	.\interfaces\NPCObject.py	/^from interfaces.GameObject import GameObject$/;"	i
+Gate	.\Gate.py	/^class Gate(KBEngine.Entity, GameObject):$/;"	c
+GlobalConst	.\interfaces\SkillBox.py	/^import GlobalConst$/;"	i
+GlobalConst	.\interfaces\Spell.py	/^import GlobalConst$/;"	i
+GlobalConst	.\skills\base\SkillInitiative.py	/^import GlobalConst$/;"	i
+GlobalDefine	.\Avatar.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\dialogmgr\Dialog.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\interfaces\AI.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\interfaces\Combat.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\interfaces\CombatPropertys.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\interfaces\Flags.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\interfaces\GameObject.py	/^import GlobalDefine$/;"	i
+GlobalDefine	.\interfaces\State.py	/^import GlobalDefine$/;"	i
+Item	.\items\__init__.py	/^from Item import Item$/;"	i
+KBEngine	.\Avatar.py	/^import KBEngine$/;"	i
+KBEngine	.\Gate.py	/^import KBEngine$/;"	i
+KBEngine	.\Monster.py	/^import KBEngine$/;"	i
+KBEngine	.\NPC.py	/^import KBEngine$/;"	i
+KBEngine	.\Space.py	/^import KBEngine$/;"	i
+KBEngine	.\SpaceContext.py	/^import KBEngine$/;"	i
+KBEngine	.\SpaceDuplicate.py	/^import KBEngine$/;"	i
+KBEngine	.\SpawnPoint.py	/^import KBEngine$/;"	i
+KBEngine	.\dialogmgr\Dialog.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\AI.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\Combat.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\CombatPropertys.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\Dialog.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\GameObject.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\Motion.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\NPCObject.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\SkillBox.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\Spell.py	/^import KBEngine$/;"	i
+KBEngine	.\interfaces\Teleport.py	/^import KBEngine$/;"	i
+KBEngine	.\items\__init__.py	/^import KBEngine$/;"	i
+KBEngine	.\kbengine.py	/^import KBEngine$/;"	i
+KBEngine	.\skills\SkillAttack.py	/^import KBEngine$/;"	i
+KBEngine	.\skills\base\DBuff.py	/^import KBEngine$/;"	i
+KBEngine	.\skills\base\SkillInitiative.py	/^import KBEngine$/;"	i
+KBEngine	.\skills\base\SkillPassivity.py	/^import KBEngine$/;"	i
+Math	.\interfaces\Motion.py	/^import Math$/;"	i
+Monster	.\Monster.py	/^			AI):$/;"	c
+Motion	.\Avatar.py	/^from interfaces.Motion import Motion$/;"	i
+Motion	.\Monster.py	/^from interfaces.Motion import Motion$/;"	i
+Motion	.\NPC.py	/^from interfaces.Motion import Motion$/;"	i
+Motion	.\interfaces\Motion.py	/^class Motion:$/;"	c
+NPC	.\NPC.py	/^class NPC(KBEngine.Entity, NPCObject, Motion):$/;"	c
+NPCObject	.\Monster.py	/^from interfaces.NPCObject import NPCObject$/;"	i
+NPCObject	.\NPC.py	/^from interfaces.NPCObject import NPCObject$/;"	i
+NPCObject	.\interfaces\NPCObject.py	/^class NPCObject(GameObject):$/;"	c
+SCDefine	.\Gate.py	/^import SCDefine$/;"	i
+SCDefine	.\Monster.py	/^import SCDefine$/;"	i
+SCDefine	.\SpawnPoint.py	/^import SCDefine$/;"	i
+SCDefine	.\interfaces\AI.py	/^import SCDefine$/;"	i
+SCDefine	.\interfaces\GameObject.py	/^import SCDefine$/;"	i
+SCDefine	.\interfaces\SkillBox.py	/^import SCDefine$/;"	i
+SCDefine	.\interfaces\Spell.py	/^import SCDefine$/;"	i
+SCObject	.\interfaces\AI.py	/^from skillbases.SCObject import SCObject$/;"	i
+SCObject	.\interfaces\Spell.py	/^import skillbases.SCObject as SCObject$/;"	i
+SCObject	.\skills\base\SkillInitiative.py	/^from skillbases.SCObject import SCObject$/;"	i
+SObject	.\skills\base\DBuff.py	/^from skillbases.SObject import SObject$/;"	i
+SObject	.\skills\base\SkillInitiative.py	/^from skillbases.SObject import SObject$/;"	i
+SObject	.\skills\base\SkillPassivity.py	/^from skillbases.SObject import SObject$/;"	i
+ScriptMaps	.\items\__init__.py	/^import ScriptMaps$/;"	i
+SkillAttack	.\skills\SkillAttack.py	/^class SkillAttack(SkillInitiative):$/;"	c
+SkillAttack	.\skills\__init__.py	/^from skills.SkillAttack import SkillAttack$/;"	i
+SkillBox	.\Avatar.py	/^from interfaces.SkillBox import SkillBox$/;"	i
+SkillBox	.\interfaces\SkillBox.py	/^class SkillBox:$/;"	c
+SkillInitiative	.\skills\SkillAttack.py	/^from skills.base.SkillInitiative import SkillInitiative$/;"	i
+SkillInitiative	.\skills\base\SkillInitiative.py	/^class SkillInitiative(SObject):$/;"	c
+SkillPassivity	.\skills\base\SkillPassivity.py	/^class SkillPassivity(SObject):$/;"	c
+Space	.\Space.py	/^class Space(KBEngine.Entity, GameObject):$/;"	c
+Space	.\SpaceDuplicate.py	/^from Space import Space$/;"	i
+SpaceContext	.\SpaceContext.py	/^class SpaceContext(dict):$/;"	c
+SpaceContext	.\interfaces\Teleport.py	/^import SpaceContext$/;"	i
+SpaceDuplicate	.\SpaceDuplicate.py	/^class SpaceDuplicate(Space):$/;"	c
+SpaceDuplicateContext	.\SpaceContext.py	/^class SpaceDuplicateContext(SpaceContext):$/;"	c
+SpawnPoint	.\SpawnPoint.py	/^class SpawnPoint(KBEngine.Entity, GameObject):$/;"	c
+Spell	.\Avatar.py	/^from interfaces.Spell import Spell$/;"	i
+Spell	.\Monster.py	/^from interfaces.Spell import Spell$/;"	i
+Spell	.\interfaces\Spell.py	/^class Spell:$/;"	c
+State	.\Avatar.py	/^from interfaces.State import State$/;"	i
+State	.\Monster.py	/^from interfaces.State import State$/;"	i
+State	.\interfaces\State.py	/^class State:$/;"	c
+Teleport	.\Avatar.py	/^from interfaces.Teleport import Teleport$/;"	i
+Teleport	.\interfaces\Teleport.py	/^class Teleport:$/;"	c
+Weapon	.\items\__init__.py	/^from Weapon import Weapon$/;"	i
+__TERRITORY_AREA__	.\interfaces\AI.py	/^__TERRITORY_AREA__ = 30.0$/;"	v
+__init__	.\Avatar.py	/^	def __init__(self):$/;"	m	class:Avatar
+__init__	.\Gate.py	/^	def __init__(self):$/;"	m	class:Gate
+__init__	.\Monster.py	/^	def __init__(self):$/;"	m	class:Monster
+__init__	.\NPC.py	/^	def __init__(self):$/;"	m	class:NPC
+__init__	.\Space.py	/^	def __init__(self):$/;"	m	class:Space
+__init__	.\SpaceContext.py	/^	def __init__(self, entity):$/;"	m	class:SpaceContext
+__init__	.\SpaceContext.py	/^	def __init__(self, entity):$/;"	m	class:SpaceDuplicateContext
+__init__	.\SpaceDuplicate.py	/^	def __init__(self):$/;"	m	class:SpaceDuplicate
+__init__	.\SpawnPoint.py	/^	def __init__(self):$/;"	m	class:SpawnPoint
+__init__	.\dialogmgr\Dialog.py	/^	def __init__(self, datas):$/;"	m	class:Dialog
+__init__	.\dialogmgr\DialogMgr.py	/^	def __init__(self):$/;"	m	class:DialogMgr
+__init__	.\dialogmgr\funcs\DFClose.py	/^	def __init__(self, args):$/;"	m	class:DFClose
+__init__	.\dialogmgr\funcs\DFTeleport.py	/^	def __init__(self, args):$/;"	m	class:DFTeleport
+__init__	.\dialogmgr\funcs\iDFunction.py	/^	def __init__(self, args):$/;"	m	class:iDFunction
+__init__	.\interfaces\AI.py	/^	def __init__(self):$/;"	m	class:AI
+__init__	.\interfaces\Combat.py	/^	def __init__(self):$/;"	m	class:Combat
+__init__	.\interfaces\CombatPropertys.py	/^	def __init__(self):$/;"	m	class:CombatPropertys
+__init__	.\interfaces\Dialog.py	/^	def __init__(self):$/;"	m	class:Dialog
+__init__	.\interfaces\Flags.py	/^	def __init__(self):$/;"	m	class:Flags
+__init__	.\interfaces\GameObject.py	/^	def __init__(self):$/;"	m	class:GameObject
+__init__	.\interfaces\Motion.py	/^	def __init__(self):$/;"	m	class:Motion
+__init__	.\interfaces\NPCObject.py	/^	def __init__(self):$/;"	m	class:NPCObject
+__init__	.\interfaces\SkillBox.py	/^	def __init__(self):$/;"	m	class:SkillBox
+__init__	.\interfaces\Spell.py	/^	def __init__(self):$/;"	m	class:Spell
+__init__	.\interfaces\State.py	/^	def __init__(self):$/;"	m	class:State
+__init__	.\interfaces\Teleport.py	/^	def __init__(self):$/;"	m	class:Teleport
+__init__	.\skills\SkillAttack.py	/^	def __init__(self):$/;"	m	class:SkillAttack
+__init__	.\skills\base\DBuff.py	/^	def __init__(self):$/;"	m	class:DBuff
+__init__	.\skills\base\SkillInitiative.py	/^	def __init__(self):$/;"	m	class:SkillInitiative
+__init__	.\skills\base\SkillPassivity.py	/^	def __init__(self):$/;"	m	class:SkillPassivity
+_g_skills	.\skills\__init__.py	/^_g_skills = {}$/;"	v
+addDBuff	.\interfaces\Spell.py	/^	def addDBuff(self, buffData):$/;"	m	class:Spell
+addEnemy	.\interfaces\Combat.py	/^	def addEnemy(self, entityID, enmity):$/;"	m	class:Combat
+addFlags	.\interfaces\Flags.py	/^	def addFlags(self, flags):$/;"	m	class:Flags
+addHP	.\interfaces\CombatPropertys.py	/^	def addHP(self, val):$/;"	m	class:CombatPropertys
+addLevel	.\interfaces\Combat.py	/^	def addLevel(self, lv):$/;"	m	class:Combat
+addMP	.\interfaces\CombatPropertys.py	/^	def addMP(self, val):$/;"	m	class:CombatPropertys
+addSkill	.\interfaces\SkillBox.py	/^	def addSkill(self, skillID):$/;"	m	class:SkillBox
+addTerritory	.\interfaces\AI.py	/^	def addTerritory(self):$/;"	m	class:AI
+backSpawnPos	.\interfaces\Motion.py	/^	def backSpawnPos(self):$/;"	m	class:Motion
+c_dialogMgr	.\dialogmgr\Dialog.py	/^	c_dialogMgr = None$/;"	v	class:Dialog
+canDie	.\interfaces\Combat.py	/^	def canDie(self, attackerID, skillID, damageType, damage):$/;"	m	class:Combat
+canTalk	.\dialogmgr\Dialog.py	/^	def canTalk(self, avatar, talker):$/;"	m	class:Dialog
+canUpgrade	.\interfaces\Combat.py	/^	def canUpgrade(self):$/;"	m	class:Combat
+canUse	.\skills\SkillAttack.py	/^	def canUse(self, caster, scObject):$/;"	m	class:SkillAttack
+canUse	.\skills\base\SkillInitiative.py	/^	def canUse(self, caster, scObject):$/;"	m	class:SkillInitiative
+cast	.\skills\base\SkillInitiative.py	/^	def cast(self, caster, scObject):$/;"	m	class:SkillInitiative
+changeState	.\interfaces\State.py	/^	def changeState(self, state):$/;"	m	class:State
+changeSubState	.\interfaces\State.py	/^	def changeSubState(self, subState):$/;"	m	class:State
+checkEnemyDist	.\interfaces\Combat.py	/^	def checkEnemyDist(self, entity):$/;"	m	class:Combat
+checkEnemys	.\interfaces\Combat.py	/^	def checkEnemys(self):$/;"	m	class:Combat
+checkInTerritory	.\Monster.py	/^	def checkInTerritory(self):$/;"	m	class:Monster
+checkInTerritory	.\interfaces\AI.py	/^	def checkInTerritory(self):$/;"	m	class:AI
+checkInTerritory	.\interfaces\Combat.py	/^	def checkInTerritory(self):$/;"	m	class:Combat
+checkItemNo	.\items\__init__.py	/^def checkItemNo(itemNO):$/;"	f
+choiceTarget	.\interfaces\AI.py	/^	def choiceTarget(self):$/;"	m	class:AI
+copy	.\items\__init__.py	/^import copy$/;"	i
+create	.\SpaceContext.py	/^	def create(entity):$/;"	m	class:SpaceContext
+create	.\SpaceContext.py	/^	def create(entity):$/;"	m	class:SpaceDuplicateContext
+createContext	.\SpaceContext.py	/^def createContext(entity, spaceUType):$/;"	f
+createItem	.\items\__init__.py	/^def createItem(itemNO, amount = 1, owner = None):$/;"	f
+createItemByItem	.\items\__init__.py	/^def createItemByItem(item, amount, owner = None):$/;"	f
+d_avatar_inittab	.\interfaces\GameObject.py	/^import d_avatar_inittab$/;"	i
+d_entities	.\SpaceDuplicate.py	/^import d_entities$/;"	i
+d_entities	.\SpawnPoint.py	/^import d_entities$/;"	i
+d_entities	.\dialogmgr\__init__.py	/^import d_entities$/;"	i
+d_entities	.\interfaces\AI.py	/^import d_entities$/;"	i
+d_entities	.\interfaces\GameObject.py	/^import d_entities$/;"	i
+d_items	.\items\__init__.py	/^from d_items import datas as d_items$/;"	i
+d_skills	.\skills\__init__.py	/^import d_skills$/;"	i
+d_spaces	.\Gate.py	/^import d_spaces$/;"	i
+d_spaces	.\Space.py	/^import d_spaces$/;"	i
+d_spaces	.\SpaceContext.py	/^import d_spaces$/;"	i
+d_spaces	.\SpaceDuplicate.py	/^import d_spaces$/;"	i
+d_spaces	.\interfaces\GameObject.py	/^import d_spaces$/;"	i
+delTerritory	.\interfaces\AI.py	/^	def delTerritory(self):$/;"	m	class:AI
+dialog	.\interfaces\Dialog.py	/^	def dialog(self, srcEntityID, targetID, dialogID):$/;"	m	class:Dialog
+dialogmgr	.\dialogmgr\Dialog.py	/^import dialogmgr.funcs as funcs$/;"	i
+dialogmgr	.\interfaces\Dialog.py	/^import dialogmgr$/;"	i
+dialogmgr	.\kbengine.py	/^import dialogmgr$/;"	i
+die	.\interfaces\Combat.py	/^	def die(self, killerID):$/;"	m	class:Combat
+disable	.\interfaces\AI.py	/^	def disable(self):$/;"	m	class:AI
+distToDelay	.\skills\base\SkillInitiative.py	/^	def distToDelay(self, caster, scObject):$/;"	m	class:SkillInitiative
+do	.\dialogmgr\Dialog.py	/^	def do(self, avatar, talker):$/;"	m	class:Dialog
+do	.\dialogmgr\funcs\DFClose.py	/^	def do(self, avatar, args):$/;"	m	class:DFClose
+do	.\dialogmgr\funcs\DFTeleport.py	/^	def do(self, avatar, args):$/;"	m	class:DFTeleport
+do	.\dialogmgr\funcs\iDFunction.py	/^	def do(self, avatar, args):$/;"	m	class:iDFunction
+enable	.\interfaces\AI.py	/^	def enable(self):$/;"	m	class:AI
+forbidCounterDec	.\interfaces\State.py	/^	def forbidCounterDec(self, forbids):$/;"	m	class:State
+forbidCounterInc	.\interfaces\State.py	/^	def forbidCounterInc(self, forbids):$/;"	m	class:State
+fullPower	.\interfaces\CombatPropertys.py	/^	def fullPower(self):$/;"	m	class:CombatPropertys
+funcs	.\dialogmgr\Dialog.py	/^import dialogmgr.funcs as funcs$/;"	i
+g_dialogDatas	.\dialogmgr\DialogMgr.py	/^from d_dialogs import datas as g_dialogDatas$/;"	i
+g_dialogMgr	.\dialogmgr\__init__.py	/^g_dialogMgr = DialogMgr()$/;"	v
+g_funcs	.\dialogmgr\funcs\__init__.py	/^g_funcs = {$/;"	v
+getBody	.\dialogmgr\Dialog.py	/^	def getBody(self):$/;"	m	class:Dialog
+getCastMaxRange	.\skills\base\SkillInitiative.py	/^	def getCastMaxRange(self, caster):$/;"	m	class:SkillInitiative
+getCurrSpace	.\interfaces\GameObject.py	/^	def getCurrSpace(self):$/;"	m	class:GameObject
+getCurrSpaceBase	.\interfaces\GameObject.py	/^	def getCurrSpaceBase(self):$/;"	m	class:GameObject
+getDatas	.\interfaces\GameObject.py	/^	def getDatas(self):$/;"	m	class:GameObject
+getDialog	.\dialogmgr\DialogMgr.py	/^	def getDialog(self, key):$/;"	m	class:DialogMgr
+getForbidCounter	.\interfaces\State.py	/^	def getForbidCounter(self, forbid):$/;"	m	class:State
+getIntonateTime	.\skills\base\SkillInitiative.py	/^	def getIntonateTime(self, caster):$/;"	m	class:SkillInitiative
+getItemClass	.\items\__init__.py	/^def getItemClass(itemNO):$/;"	f
+getItemData	.\items\__init__.py	/^def getItemData(itemNO):$/;"	f
+getKey	.\dialogmgr\Dialog.py	/^	def getKey(self):$/;"	m	class:Dialog
+getMaxReceiverCount	.\skills\base\SkillInitiative.py	/^	def getMaxReceiverCount(self):$/;"	m	class:SkillInitiative
+getRangeMax	.\skills\base\SkillInitiative.py	/^	def getRangeMax(self, caster):$/;"	m	class:SkillInitiative
+getRangeMin	.\skills\base\SkillInitiative.py	/^	def getRangeMin(self, caster):$/;"	m	class:SkillInitiative
+getScriptName	.\interfaces\GameObject.py	/^	def getScriptName(self):$/;"	m	class:GameObject
+getSkill	.\skills\__init__.py	/^def getSkill(skillID):$/;"	f
+getSpaces	.\interfaces\GameObject.py	/^	def getSpaces(self):$/;"	m	class:GameObject
+getSpeed	.\skills\base\SkillInitiative.py	/^	def getSpeed(self):$/;"	m	class:SkillInitiative
+getState	.\interfaces\State.py	/^	def getState(self):$/;"	m	class:State
+getStopPoint	.\interfaces\Motion.py	/^	def getStopPoint(self, yaw = None, rayLength = 100.0):$/;"	m	class:Motion
+getSubState	.\interfaces\State.py	/^	def getSubState(self):$/;"	m	class:State
+getTitle	.\dialogmgr\Dialog.py	/^	def getTitle(self):$/;"	m	class:Dialog
+gotoEntity	.\interfaces\Motion.py	/^	def gotoEntity(self, targetID, dist = 0.0):$/;"	m	class:Motion
+gotoPosition	.\interfaces\Motion.py	/^	def gotoPosition(self, position, dist = 0.0):$/;"	m	class:Motion
+hasFlags	.\interfaces\Flags.py	/^	def hasFlags(self, flags):$/;"	m	class:Flags
+hasSkill	.\interfaces\SkillBox.py	/^	def hasSkill(self, skillID):$/;"	m	class:SkillBox
+iDFunction	.\dialogmgr\funcs\DFClose.py	/^from dialogmgr.funcs.iDFunction import iDFunction$/;"	i
+iDFunction	.\dialogmgr\funcs\DFTeleport.py	/^from dialogmgr.funcs.iDFunction import iDFunction$/;"	i
+iDFunction	.\dialogmgr\funcs\iDFunction.py	/^class iDFunction:$/;"	c
+initEntity	.\Monster.py	/^	def initEntity(self):$/;"	m	class:Monster
+initEntity	.\interfaces\AI.py	/^	def initEntity(self):$/;"	m	class:AI
+initEntity	.\interfaces\GameObject.py	/^	def initEntity(self):$/;"	m	class:GameObject
+initEntity	.\interfaces\State.py	/^	def initEntity(self):$/;"	m	class:State
+intonate	.\interfaces\Spell.py	/^	def intonate(self, skill, scObject):$/;"	m	class:Spell
+isDead	.\interfaces\Combat.py	/^	def isDead(self):$/;"	m	class:Combat
+isForbid	.\interfaces\State.py	/^	def isForbid(self, forbid):$/;"	m	class:State
+isMonster	.\Monster.py	/^	def isMonster(self):$/;"	m	class:Monster
+isMonster	.\interfaces\GameObject.py	/^	def isMonster(self):$/;"	m	class:GameObject
+isNPC	.\NPC.py	/^	def isNPC(self):$/;"	m	class:NPC
+isNPC	.\interfaces\GameObject.py	/^	def isNPC(self):$/;"	m	class:GameObject
+isPlayer	.\Avatar.py	/^	def isPlayer(self):$/;"	m	class:Avatar
+isPlayer	.\interfaces\GameObject.py	/^	def isPlayer(self):$/;"	m	class:GameObject
+isRotate	.\skills\base\SkillInitiative.py	/^	def isRotate(self):$/;"	m	class:SkillInitiative
+isState	.\interfaces\State.py	/^	def isState(self, state):$/;"	m	class:State
+isSubState	.\interfaces\State.py	/^	def isSubState(self, state):$/;"	m	class:State
+itemNo2NoAlias	.\items\__init__.py	/^def itemNo2NoAlias(sid):$/;"	f
+jump	.\Avatar.py	/^	def jump(self, exposed):$/;"	m	class:Avatar
+loadFromDict	.\skills\base\DBuff.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:DBuff
+loadFromDict	.\skills\base\SkillInitiative.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:SkillInitiative
+loadFromDict	.\skills\base\SkillPassivity.py	/^	def loadFromDict(self, dictDatas):$/;"	m	class:SkillPassivity
+math	.\Gate.py	/^import math$/;"	i
+math	.\Monster.py	/^import math$/;"	i
+math	.\NPC.py	/^import math$/;"	i
+math	.\interfaces\Motion.py	/^import math$/;"	i
+noAlias2ItemNo	.\items\__init__.py	/^def noAlias2ItemNo(aid):$/;"	f
+onAddEnemy	.\Monster.py	/^	def onAddEnemy(self, entityID):$/;"	m	class:Monster
+onAddEnemy	.\interfaces\AI.py	/^	def onAddEnemy(self, entityID):$/;"	m	class:AI
+onAddEnemy	.\interfaces\Combat.py	/^	def onAddEnemy(self, entityID):$/;"	m	class:Combat
+onAfterDie	.\interfaces\Combat.py	/^	def onAfterDie(self, killerID):$/;"	m	class:Combat
+onAllSpaceGeometryLoaded	.\kbengine.py	/^def onAllSpaceGeometryLoaded(spaceID, isBootstrap, mapping):$/;"	f
+onArrived	.\skills\base\SkillInitiative.py	/^	def onArrived(self, caster, scObject):$/;"	m	class:SkillInitiative
+onAttach	.\skills\base\DBuff.py	/^	def onAttach(self, context):$/;"	m	class:DBuff
+onBeforeDie	.\interfaces\Combat.py	/^	def onBeforeDie(self, killerID):$/;"	m	class:Combat
+onBuffTick	.\interfaces\Spell.py	/^	def onBuffTick(self):$/;"	m	class:Spell
+onCellAppData	.\kbengine.py	/^def onCellAppData(key, value):$/;"	f
+onCellAppDataDel	.\kbengine.py	/^def onCellAppDataDel(key):$/;"	f
+onDestroy	.\Avatar.py	/^	def onDestroy(self):$/;"	m	class:Avatar
+onDestroy	.\Monster.py	/^	def onDestroy(self):$/;"	m	class:Monster
+onDestroy	.\NPC.py	/^	def onDestroy(self):$/;"	m	class:NPC
+onDestroy	.\Space.py	/^	def onDestroy(self):$/;"	m	class:Space
+onDestroy	.\SpawnPoint.py	/^	def onDestroy(self):$/;"	m	class:SpawnPoint
+onDestroy	.\interfaces\Combat.py	/^	def onDestroy(self):$/;"	m	class:Combat
+onDestroy	.\interfaces\NPCObject.py	/^	def onDestroy(self):$/;"	m	class:NPCObject
+onDestroy	.\interfaces\Teleport.py	/^	def onDestroy(self):$/;"	m	class:Teleport
+onDestroyEntityTimer	.\interfaces\GameObject.py	/^	def onDestroyEntityTimer(self):$/;"	m	class:GameObject
+onDetach	.\skills\base\DBuff.py	/^	def onDetach(self, context):$/;"	m	class:DBuff
+onDie	.\interfaces\Combat.py	/^	def onDie(self, killerID):$/;"	m	class:Combat
+onEnter	.\Space.py	/^	def onEnter(self, entityMailbox):$/;"	m	class:Space
+onEnter	.\SpaceDuplicate.py	/^	def onEnter(self, entityMailbox):$/;"	m	class:SpaceDuplicate
+onEnterTrap	.\Gate.py	/^	def onEnterTrap(self, entityEntering, range_xz, range_y, controllerID, userarg):$/;"	m	class:Gate
+onEnterTrap	.\Monster.py	/^	def onEnterTrap(self, entity, range_xz, range_y, controllerID, userarg):$/;"	m	class:Monster
+onEnterTrap	.\interfaces\AI.py	/^	def onEnterTrap(self, entityEntering, range_xz, range_y, controllerID, userarg):$/;"	m	class:AI
+onEnterTrap	.\interfaces\GameObject.py	/^	def onEnterTrap(self, entityEntering, range_xz, range_y, controllerID, userarg):$/;"	m	class:GameObject
+onEntityDestroyed	.\SpawnPoint.py	/^	def onEntityDestroyed(self, entityNO):$/;"	m	class:SpawnPoint
+onFlagsChanged_	.\Monster.py	/^	def onFlagsChanged_(self, flags, isInc):$/;"	m	class:Monster
+onFlagsChanged_	.\interfaces\AI.py	/^	def onFlagsChanged_(self, flags, isInc):$/;"	m	class:AI
+onFlagsChanged_	.\interfaces\Flags.py	/^	def onFlagsChanged_(self, flags, isInc):$/;"	m	class:Flags
+onForbidChanged_	.\Monster.py	/^	def onForbidChanged_(self, forbid, isInc):$/;"	m	class:Monster
+onForbidChanged_	.\interfaces\AI.py	/^	def onForbidChanged_(self, forbid, isInc):$/;"	m	class:AI
+onForbidChanged_	.\interfaces\State.py	/^	def onForbidChanged_(self, forbid, isInc):$/;"	m	class:State
+onGetWitness	.\Avatar.py	/^	def onGetWitness(self):$/;"	m	class:Avatar
+onGlobalData	.\kbengine.py	/^def onGlobalData(key, value):$/;"	f
+onGlobalDataDel	.\kbengine.py	/^def onGlobalDataDel(key):$/;"	f
+onGossip	.\dialogmgr\__init__.py	/^def onGossip(key, avatar, talker):$/;"	f
+onHeardTimer	.\Gate.py	/^	def onHeardTimer(self):$/;"	m	class:Gate
+onHeardTimer	.\interfaces\AI.py	/^	def onHeardTimer(self):$/;"	m	class:AI
+onInit	.\dialogmgr\DialogMgr.py	/^	def onInit(self):$/;"	m	class:DialogMgr
+onInit	.\dialogmgr\__init__.py	/^def onInit():$/;"	f
+onInit	.\items\__init__.py	/^def onInit():$/;"	f
+onInit	.\kbengine.py	/^def onInit(isReload):$/;"	f
+onInit	.\quests\base\__init__.py	/^def onInit():$/;"	f
+onInit	.\skills\__init__.py	/^def onInit():$/;"	f
+onInit	.\skills\base\__init__.py	/^def onInit():$/;"	f
+onKiller	.\interfaces\Combat.py	/^	def onKiller(self, entityID):$/;"	m	class:Combat
+onLeave	.\Space.py	/^	def onLeave(self, entityID):$/;"	m	class:Space
+onLeave	.\SpaceDuplicate.py	/^	def onLeave(self, entityID):$/;"	m	class:SpaceDuplicate
+onLeaveTrap	.\Gate.py	/^	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):$/;"	m	class:Gate
+onLeaveTrap	.\Monster.py	/^	def onLeaveTrap(self, entity, range_xz, range_y, controllerID, userarg):$/;"	m	class:Monster
+onLeaveTrap	.\interfaces\AI.py	/^	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):$/;"	m	class:AI
+onLeaveTrap	.\interfaces\GameObject.py	/^	def onLeaveTrap(self, entityLeaving, range_xz, range_y, controllerID, userarg):$/;"	m	class:GameObject
+onLevelChanged	.\interfaces\Combat.py	/^	def onLevelChanged(self, addlv):$/;"	m	class:Combat
+onLoopTrigger	.\skills\base\DBuff.py	/^	def onLoopTrigger(self, context):$/;"	m	class:DBuff
+onLoseTarget	.\interfaces\AI.py	/^	def onLoseTarget(self):$/;"	m	class:AI
+onLoseWitness	.\Avatar.py	/^	def onLoseWitness(self):$/;"	m	class:Avatar
+onMove	.\interfaces\Motion.py	/^	def onMove(self, controllerId, userarg):$/;"	m	class:Motion
+onMoveFailure	.\interfaces\Motion.py	/^	def onMoveFailure(self, controllerId, userarg):$/;"	m	class:Motion
+onMoveOver	.\interfaces\Motion.py	/^	def onMoveOver(self, controllerId, userarg):$/;"	m	class:Motion
+onRemoveEnemy	.\Monster.py	/^	def onRemoveEnemy(self, entityID):$/;"	m	class:Monster
+onRemoveEnemy	.\interfaces\AI.py	/^	def onRemoveEnemy(self, entityID):$/;"	m	class:AI
+onRemoveEnemy	.\interfaces\Combat.py	/^	def onRemoveEnemy(self, entityID):$/;"	m	class:Combat
+onRestore	.\SpawnPoint.py	/^	def onRestore(self):$/;"	m	class:SpawnPoint
+onRestore	.\interfaces\GameObject.py	/^	def onRestore(self):$/;"	m	class:GameObject
+onSkillCastOver_	.\skills\base\SkillInitiative.py	/^	def onSkillCastOver_(self, caster, scObject):$/;"	m	class:SkillInitiative
+onSpaceData	.\kbengine.py	/^def onSpaceData( spaceID, key, value ):$/;"	f
+onSpaceGeometryLoaded	.\kbengine.py	/^def onSpaceGeometryLoaded(spaceID, mapping):$/;"	f
+onStateChanged_	.\Monster.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:Monster
+onStateChanged_	.\interfaces\AI.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:AI
+onStateChanged_	.\interfaces\GameObject.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:GameObject
+onStateChanged_	.\interfaces\State.py	/^	def onStateChanged_(self, oldstate, newstate):$/;"	m	class:State
+onSubStateChanged_	.\Monster.py	/^	def onSubStateChanged_(self, oldSubState, newSubState):$/;"	m	class:Monster
+onSubStateChanged_	.\interfaces\AI.py	/^	def onSubStateChanged_(self, oldSubState, newSubState):$/;"	m	class:AI
+onSubStateChanged_	.\interfaces\State.py	/^	def onSubStateChanged_(self, oldSubState, newSubState):$/;"	m	class:State
+onTalk	.\dialogmgr\Dialog.py	/^	def onTalk(self, avatar, talker):$/;"	m	class:Dialog
+onTargetChanged	.\interfaces\AI.py	/^	def onTargetChanged(self):$/;"	m	class:AI
+onTeleportSpaceCB	.\interfaces\Teleport.py	/^	def onTeleportSpaceCB(self, spaceCellMailbox, spaceUType, position, direction):$/;"	m	class:Teleport
+onTeleportSuccess	.\interfaces\Teleport.py	/^	def onTeleportSuccess(self, nearbyEntity):$/;"	m	class:Teleport
+onThinkFight	.\interfaces\AI.py	/^	def onThinkFight(self):$/;"	m	class:AI
+onThinkFree	.\interfaces\AI.py	/^	def onThinkFree(self):$/;"	m	class:AI
+onThinkOther	.\interfaces\AI.py	/^	def onThinkOther(self):$/;"	m	class:AI
+onTimer	.\Avatar.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Avatar
+onTimer	.\Gate.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Gate
+onTimer	.\Monster.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Monster
+onTimer	.\NPC.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:NPC
+onTimer	.\SpawnPoint.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:SpawnPoint
+onTimer	.\interfaces\AI.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:AI
+onTimer	.\interfaces\GameObject.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:GameObject
+onTimer	.\interfaces\Spell.py	/^	def onTimer(self, tid, userArg):$/;"	m	class:Spell
+onWitnessed	.\Monster.py	/^	def onWitnessed(self, isWitnessed):$/;"	m	class:Monster
+onWitnessed	.\interfaces\AI.py	/^	def onWitnessed(self, isWitnessed):$/;"	m	class:AI
+onWitnessed	.\interfaces\GameObject.py	/^	def onWitnessed(self, isWitnessed):$/;"	m	class:GameObject
+random	.\Gate.py	/^import random$/;"	i
+random	.\Monster.py	/^import random$/;"	i
+random	.\NPC.py	/^import random$/;"	i
+random	.\SpaceDuplicate.py	/^import random$/;"	i
+random	.\interfaces\AI.py	/^import random$/;"	i
+random	.\interfaces\Motion.py	/^import random$/;"	i
+random	.\skills\SkillAttack.py	/^import random$/;"	i
+random	.\skills\base\SkillInitiative.py	/^import random$/;"	i
+random	.\skills\base\SkillPassivity.py	/^import random$/;"	i
+randomWalk	.\interfaces\Motion.py	/^	def randomWalk(self, basePos):$/;"	m	class:Motion
+receive	.\skills\SkillAttack.py	/^	def receive(self, caster, receiver):$/;"	m	class:SkillAttack
+receive	.\skills\base\SkillInitiative.py	/^	def receive(self, caster, receiver):$/;"	m	class:SkillInitiative
+recvDamage	.\interfaces\Combat.py	/^	def recvDamage(self, attackerID, skillID, damageType, damage):$/;"	m	class:Combat
+relive	.\Avatar.py	/^	def relive(self, exposed, type):$/;"	m	class:Avatar
+removeDBuff	.\interfaces\Spell.py	/^	def removeDBuff(self, buffData):$/;"	m	class:Spell
+removeEnemy	.\interfaces\Combat.py	/^	def removeEnemy(self, entityID):$/;"	m	class:Combat
+removeFlags	.\interfaces\Flags.py	/^	def removeFlags(self, flags):$/;"	m	class:Flags
+removeSkill	.\interfaces\SkillBox.py	/^	def removeSkill(self, skillID):$/;"	m	class:SkillBox
+requestPull	.\interfaces\SkillBox.py	/^	def requestPull(self, exposed):$/;"	m	class:SkillBox
+resetSpeed	.\interfaces\Motion.py	/^	def resetSpeed(self):$/;"	m	class:Motion
+scdefine	.\items\__init__.py	/^import scdefine$/;"	i
+scutils	.\items\__init__.py	/^import scutils$/;"	i
+setFlags	.\interfaces\Flags.py	/^	def setFlags(self, flags):$/;"	m	class:Flags
+setHP	.\interfaces\CombatPropertys.py	/^	def setHP(self, hp):$/;"	m	class:CombatPropertys
+setHPMax	.\interfaces\CombatPropertys.py	/^	def setHPMax(self, hpmax):$/;"	m	class:CombatPropertys
+setMP	.\interfaces\CombatPropertys.py	/^	def setMP(self, mp):$/;"	m	class:CombatPropertys
+setMPMax	.\interfaces\CombatPropertys.py	/^	def setMPMax(self, mpmax):$/;"	m	class:CombatPropertys
+setTarget	.\interfaces\AI.py	/^	def setTarget(self, entityID):$/;"	m	class:AI
+skillbases	.\interfaces\Spell.py	/^import skillbases.SCObject as SCObject$/;"	i
+skills	.\interfaces\SkillBox.py	/^import skills$/;"	i
+skills	.\interfaces\Spell.py	/^import skills$/;"	i
+skills	.\items\__init__.py	/^import skills$/;"	i
+skills	.\kbengine.py	/^import skills$/;"	i
+spawnTimer	.\SpawnPoint.py	/^	def spawnTimer(self):$/;"	m	class:SpawnPoint
+spellPosition	.\interfaces\Spell.py	/^	def spellPosition(self, position):$/;"	m	class:Spell
+spellTarget	.\interfaces\Spell.py	/^	def spellTarget(self, skillID, targetID):$/;"	m	class:Spell
+startDestroyTimer	.\Avatar.py	/^	def startDestroyTimer(self):$/;"	m	class:Avatar
+startDestroyTimer	.\interfaces\GameObject.py	/^	def startDestroyTimer(self):$/;"	m	class:GameObject
+stopMotion	.\interfaces\Motion.py	/^	def stopMotion(self):$/;"	m	class:Motion
+talk	.\dialogmgr\DialogMgr.py	/^	def talk(self, key, avatar, talker, args):$/;"	m	class:DialogMgr
+teleportSpace	.\interfaces\Teleport.py	/^	def teleportSpace(self, spaceUType, position, direction, context):$/;"	m	class:Teleport
+think	.\interfaces\AI.py	/^	def think(self):$/;"	m	class:AI
+time	.\Gate.py	/^import time$/;"	i
+time	.\Monster.py	/^import time$/;"	i
+time	.\NPC.py	/^import time$/;"	i
+time	.\interfaces\AI.py	/^import time$/;"	i
+time	.\interfaces\Motion.py	/^import time$/;"	i
+upgrade	.\interfaces\Combat.py	/^	def upgrade(self):$/;"	m	class:Combat
+use	.\skills\SkillAttack.py	/^	def use(self, caster, scObject):$/;"	m	class:SkillAttack
+use	.\skills\base\SkillInitiative.py	/^	def use(self, caster, scObject):$/;"	m	class:SkillInitiative
+useTargetSkill	.\interfaces\SkillBox.py	/^	def useTargetSkill(self, srcEntityID, skillID, targetID):$/;"	m	class:SkillBox
+valid	.\dialogmgr\funcs\DFClose.py	/^	def valid(self, avatar, args):$/;"	m	class:DFClose
+valid	.\dialogmgr\funcs\DFTeleport.py	/^	def valid(self, avatar, args):$/;"	m	class:DFTeleport
+valid	.\dialogmgr\funcs\iDFunction.py	/^	def valid(self, avatar, args):$/;"	m	class:iDFunction
